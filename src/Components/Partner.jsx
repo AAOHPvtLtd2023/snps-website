@@ -30,7 +30,7 @@ const Partners = () => {
       <div className="relative">
         <div className="w-full overflow-hidden">
           <div
-            className="flex animate-scroll whitespace-nowrap"
+            className="flex animate-scroll whitespace-nowrap w-screen"
             style={{ animationDuration: `${scrollingLogos.length * 2}s` }}
           >
             {scrollingLogos.map((logo, index) => (

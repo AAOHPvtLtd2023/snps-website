@@ -10,7 +10,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id='home' className="bg-sea_green-900 min-h-screen flex items-center">
+    <section id='home' className="bg-sea_green-900 min-h-screen flex items-center ">
       <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-20 flex flex-col md:flex-row items-center">
         
         {/* Left content */}

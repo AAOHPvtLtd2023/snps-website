@@ -20,11 +20,11 @@ const Navbar = () => {
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/90 shadow-md backdrop-blur-sm py-3' : 'bg-white py-5'
+        isScrolled ? 'bg-white/90 shadow-md backdrop-blur-sm py-3 w-screen' : 'bg-white py-5 w-screen'
       }`}
     >
       {/* Navbar container */}
-      <nav className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 md:px-12">
+      <nav className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 md:px-12 ">
         {/* Logo and Brand */}
         <a href="#home" className="flex items-center space-x-3">
           <img
